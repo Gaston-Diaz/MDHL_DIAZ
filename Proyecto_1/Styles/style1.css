@@ -1,0 +1,22 @@
+body{
+    background-color: #FAF9F6;
+}
+h1{
+    font-family: Comic Sans MS; 
+    color: #F3C74A;
+}
+.banner{
+    background-image: url(../Assets/design1_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+
+    display: flex;
+}
+.imgBorde{
+
+}
+
+.logo{
+    height: 110px;
+}
