@@ -1,12 +1,17 @@
+dd{
+    margin-bottom: 1.5rem;
+}
+body{
+   background-color: #FAF9F6;
+}
 h1{
     font-weight: bold;
-    color: bisque;
+    color: black;
     font-size: 55px;
 }
 .containerHeader{
     width: 100%;
     height: 45vh;
-    background-color: aquamarine;
     position: relative;
 }
 .title{
@@ -24,7 +29,7 @@ h1{
 }
 .logo{
     position: absolute;
-    height: 150px;
+    height: 157px;
     right: 10%;
     top: 70%;
 }
@@ -38,14 +43,18 @@ h1{
 }
 .nav{
     position: absolute;
-    left: 50%;
+    left: 2%;
+}
+.divNav{
+    margin-top: 35px;
 }
 .sectionDiv{
     display: flex;
 }
 .imgBorde{
     height: 350px;
+    margin-left: 150px;
 }
 .articleDiv{
-    margin-left: 200px;
+    margin-left: 40px;
 }
