@@ -1,3 +1,6 @@
+html{
+    font-family: Comic Sans MS;
+}
 dd{
     margin-bottom: 1.5rem;
 }
@@ -6,8 +9,9 @@ body{
 }
 h1{
     font-weight: bold;
-    color: black;
+    color: #F3C74A;
     font-size: 55px;
+    
 }
 .containerHeader{
     width: 100%;
@@ -57,4 +61,10 @@ h1{
 }
 .articleDiv{
     margin-left: 40px;
+}
+.buttonActive{
+    all: unset;
+}
+.button{
+    all: unset;
 }
