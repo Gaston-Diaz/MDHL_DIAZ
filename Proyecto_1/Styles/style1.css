@@ -35,7 +35,7 @@ h1{
     position: absolute;
     height: 157px;
     right: 10%;
-    top: 70%;
+    top: 80%;
 }
 .eventsBanner{
     background-color: black;
@@ -63,8 +63,9 @@ h1{
     margin-left: 40px;
 }
 .buttonActive{
-    all: unset;
+    color: aquamarine;
+    text-decoration: none;
 }
 .button{
-    all: unset;
+    color: black;
 }

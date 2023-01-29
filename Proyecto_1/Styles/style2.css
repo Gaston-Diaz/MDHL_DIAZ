@@ -14,11 +14,10 @@ body{
 }
 .title{
     text-align: center;
-    z-index: 1;
 }
 .bannerContainer{
     position:absolute;
-    top: 12%;
+    top: 15%;
     width: 100%;
     height: 45vh;
     background-image: url(../Assets/design1_image2.jpg);
@@ -54,7 +53,7 @@ body{
     display: flex;
     position: absolute;
     right: 2%;
-    top:4%
+    top:7%
 
 }
 .divNav{
@@ -71,10 +70,20 @@ body{
     margin-left: 40px;
 }
 .buttonActive{
-    background-color: #7ECA9C;
+    display: block;
+    width: 140px;
     border-radius: 5px;
+    background-color:aquamarine;
+    text-align: center;
+    color: #FAF9F6;
+    text-decoration: none;
 }
 .button{
-    background-color: #11698E;
+    display: block;
+    width: 140px;
     border-radius: 5px;
+    background-color: #11698E;
+    text-align: center;
+    color: #FAF9F6;
+    text-decoration: none;
 }
