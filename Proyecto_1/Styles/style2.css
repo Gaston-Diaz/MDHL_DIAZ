@@ -1,21 +1,16 @@
-h1{
-    font-weight: bold;
-    color: bisque;
-    font-size: 55px;
-}
 .containerHeader{
     width: 100%;
-    height: 45vh;
+    height: 50vh;
     background-color: aquamarine;
     position: relative;
 }
 .title{
-    position: absolute;
-    margin-left: 20%;
+    text-align: center;
     z-index: 1;
 }
 .bannerContainer{
     position:absolute;
+    top: 12%;
     width: 100%;
     height: 45vh;
     background-image: url(../Assets/design1_image1.jpg);
@@ -25,8 +20,8 @@ h1{
 .logo{
     position: absolute;
     height: 150px;
-    right: 10%;
-    top: 70%;
+    left: 1%;
+    top: 130%;
 }
 .eventsBanner{
     background-color: black;
@@ -36,16 +31,13 @@ h1{
     text-align: center;
     color: aliceblue;
 }
-.nav{
-    position: absolute;
-    left: 50%;
-}
 .sectionDiv{
     display: flex;
 }
 .imgBorde{
     height: 350px;
+    margin-left: 200px;
 }
 .articleDiv{
-    margin-left: 200px;
+    margin-left: 40px;
 }
