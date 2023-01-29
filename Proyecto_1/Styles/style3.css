@@ -1,0 +1,106 @@
+html{
+    font-family: Comic Sans MS;
+}
+dd{
+    margin-bottom: 1.5rem;
+}
+body{
+   background-color: #FAF9F6;
+}
+h1{
+    font-weight: bold;
+    color: #F3C74A;
+    font-size: 55px;
+    
+}
+header{
+    background-color:#F3C74A ;
+}
+.containerHeader{
+    width: 100%;
+    height: 45vh;
+    position: relative;
+}
+.title{
+    position: absolute;
+    margin-left: 20%;
+    z-index: 1;
+}
+.bannerContainer{
+    position:absolute;
+    width: 100%;
+    height: 45vh;
+    background-image: url(../Assets/design1_image1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+}
+.bannerContainer:hover{
+    position:absolute;
+    width: 100%;
+    height: 45vh;
+    background-image: url(../Assets/design1_image2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    height: 157px;
+    right: 10%;
+    top: 80%;
+}
+.eventsBanner{
+    background-color: black;
+    z-index: 3;
+}
+.textEventBanner{
+    text-align: center;
+    color: aliceblue;
+}
+.nav{
+    background-color: rgb(219, 70, 53,50%);
+    border-radius:10px ;
+    padding: 10px;
+    position: absolute;
+    left: 2%;
+    top: 65%;
+}
+.nav:hover{
+    transition: 1s;
+    background-color: #DB4635;
+    border-radius:10px ;
+    padding: 10px;
+    position: absolute;
+    left: 2%;
+}
+.divNav{
+    margin-top: 35px;
+}
+.sectionDiv{
+    display: flex;
+}
+.imgBorde{
+    height: 350px;
+    margin-left: 150px;
+}
+.articleDiv{
+    margin-left: 40px;
+    background-color: rgb(77, 176, 156,25%);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.buttonActive{
+    display: block;
+    width: 140px;
+    border-radius: 5px;
+    background-color:#F3C74A;
+    text-align: center;
+    color: #FAF9F6;
+    text-decoration: none;
+    cursor: default;
+}
+.button{
+    color: #4CB19C;
+    text-decoration: none;
+}
