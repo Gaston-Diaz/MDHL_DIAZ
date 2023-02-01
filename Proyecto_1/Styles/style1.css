@@ -73,14 +73,28 @@ h1{
     margin-left: 40px;
 }
 .buttonActive{
+    display: block;
+    width: 140px;
     color: aquamarine;
     text-decoration: none;
 }
 .buttonActive:hover{
-    transform: scale(100%);
+    color: aquamarine;
+    text-decoration: none;
+    transition: 1s;
+    transform: scale(1.2) translate(30px);
 }
 .button{
+    display: block;
+    width: 140px;
     color: #11698E;
+}
+.button:hover{
+    display: block;
+    width: 140px;
+    color: #11698E;
+    transition: 1s;
+    transform: scale(1.2) translate(30px);
 }
 .centerDiv{
     display: flex; 
@@ -93,6 +107,9 @@ h1{
 }
 .centerText{
     text-align: center;
+}
+.textDecoration{
+    text-decoration: underline;
 }
 .mainBack{
     background-image:linear-gradient(rgba(250, 249, 246, 0.85), rgba(250, 249, 246,0.85)) ,url(../Assets/Logo_Mighty_ducks-01.png);
