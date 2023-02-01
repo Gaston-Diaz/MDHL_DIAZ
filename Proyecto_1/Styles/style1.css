@@ -44,8 +44,8 @@ h1{
 .logo{
     position: absolute;
     height: 157px;
-    right: 10%;
-    top: 80%;
+    right: 5%;
+    top: 77%;
 }
 .eventsBanner{
     background-color: black;
@@ -68,21 +68,27 @@ h1{
 .imgBorde{
     height: 350px;
     margin-left: 150px;
+    border-radius: 15px;
 }
 .articleDiv{
     margin-left: 40px;
 }
 .buttonActive{
     display: block;
-    width: 140px;
-    color: aquamarine;
+    background-color: rgb(130, 167, 166,30%);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    color: rgb(25, 173, 136);
     text-decoration: none;
 }
 .buttonActive:hover{
-    color: aquamarine;
+    background-color: rgb(130, 167, 166,30%);
+    color: rgb(25, 173, 136);
     text-decoration: none;
     transition: 1s;
-    transform: scale(1.2) translate(30px);
+    transform: scale(1.2)
 }
 .button{
     display: block;
@@ -119,4 +125,9 @@ h1{
 }
 .sinPuntito{
     list-style: none;
+}
+.colorContainer{
+    background-color:rgb(130, 167, 166,30%);
+    border-radius: 15px;
+    padding: 10px;
 }
