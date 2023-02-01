@@ -11,6 +11,9 @@ th{
 dd{
     margin-bottom: 1.5rem;
 }
+dt{
+    font-weight: bold;
+}
 body{
    background-color: rgb(250, 249, 246);
 }
@@ -83,6 +86,10 @@ h1{
     display: flex; 
     justify-content: center; 
     margin-top: 28px;
+}
+.centerRules{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .centerText{
     text-align: center;
