@@ -168,10 +168,12 @@ h1{
         margin-top: 5px;
     }
     .button{
-        width: 100px;
+        width: 90px;
     }
     .buttonActive{
-        width: 100px;
+        width: fit-content;
+        margin-right: 20px;
+        
     }
     .mainBack{
         margin-top: 20%;
