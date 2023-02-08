@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style1.css">
-    <title>Registration</title>
-    <link rel="icon" type="image/x-icon" href="assets/Logo.ico">
+   <title>Registration</title>
+   <link rel="icon" type="image/x-icon" href="assets/Logo.ico">
 </head>
 <body>
     <header>
@@ -44,116 +44,193 @@
         </nav> 
 
     </header>
+
     <main class="mainBack">
         <div class="centerDiv" style="flex-wrap: wrap;">
-            <form class="centerForm">
+            <form class="centerForm" action="show_data.html" method="get">
 
-                <label for="fName">Player's First Name:</label>
-                <input type="text" id="fName" name="fName">
+        <!--NAME-->
 
-                <label for="lName">Last Name:</label>
-                <input type="text" id="lName" name="lName">
+                <fieldset class="alLadito">
+                    <div>
+                        <label for="fName">Player's First Name:</label>
+                        <input type="text" id="fName" name="fName">
+                    </div>
+                    <div>
+                        <label for="lName">Last Name:</label>
+                        <input type="text" id="lName" name="lName">
+                    </div>
+                </fieldset>
 
-                <br><br> <!-- REEMPLAZAR-->
+        <!--STREET-->
             
+                <fieldset>
+                    <label for="sAddress">Street Address:</label>
+                    <input type="text" id="sAddress" name="sAddress">
+                </fieldset>
 
-                <label for="sAddress">Street Address:</label>
-                <input type="text" id="sAddress" name="sAddress">
+        <!--CITY-->
+                <div class="alLadito">
+                    <fieldset class="alLadito">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city">
+                    </fieldset>
 
-                <br><br> <!-- REEMPLAZAR-->
+        <!--ZIP CODE-->
 
-                <label for="city">City:</label>
-                <input type="text" id="city" name="city">
+                    <fieldset class="alLadito">
+                        <label for="zipCode">Zip Code:</label>
+                        <input type="text" id="zipCode" name="zipCode">
+                    </fieldset>
+                </div>
 
-                <label for="zipCode">Zip Code:</label>
-                <input type="text" id="zipCode" name="zipCode">
+        <!--BIRTH DATE-->
+                <div class="alLadito">
+                    <fieldset>
+                            <!-- <legend>Birth Date(mm/dd/yyyy):</legend> -->
+                            <h4>Birth Date(mm/dd/yyyy):</h4>
+                            <input type="date" id="birthDate" name="birthDate">
+                    </fieldset>
 
-                <br><br> <!-- REEMPLAZAR-->
+        <!--GENDER--> <!--listo-->
 
-                <label for="birthDate">Birth Date(mm/dd/yyyy):</label>
-                <input type="text" id="birthDate" name="birthDate">
+                    <fieldset>
+                            <!-- <legend>Gender:</legend> -->
+                            <h4>Gender:</h4>
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" name="gender">
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender">
+                    </fieldset>
+                </div>
 
-                <label for="female">Gender: Female</label>
-                <input type="radio" id="female" name="gender">
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="gender">
+        <!--GRADE--> <!--listo-->
 
-                <br><br> <!-- REEMPLAZAR-->
+                <fieldset>
+                    <!-- <legend>Grade</legend> -->
+                    <h4>Grade</h4>
+                    <input type="radio" id="pre" name="grade">
+                    <label for="pre">Pre-School</label>
+                    <input type="radio" id="1" name="grade">
+                    <label for="1"><sup>1st</sup></label>
+                    <input type="radio" id="2" name="grade">
+                    <label for="2"><sup>2nd</sup></label>
+                    <input type="radio" id="3" name="grade">
+                    <label for="3"><sup>3rd</sup></label>
+                    <input type="radio" id="4" name="grade">
+                    <label for="4"><sup>4th</sup></label>
+                    <input type="radio" id="5" name="grade">
+                    <label for="5"><sup>5th</sup></label>
+                </fieldset>
 
-                <input type="radio" id="pre" name="grade">
-                <label for="pre">Pre-School</label>
-                <input type="radio" id="1" name="grade">
-                <label for="1">1st</label>
-                <input type="radio" id="2" name="grade">
-                <label for="2">2nd</label>
-                <input type="radio" id="3" name="grade">
-                <label for="3">3rd</label>
-                <input type="radio" id="4" name="grade">
-                <label for="4">4th</label>
-                <input type="radio" id="5" name="grade">
-                <label for="5">5th</label> 
+        <!--CLOSEST SCHOOL--> <!--listo-->
  
-                <br><br> <!-- REEMPLAZAR-->
+                <fieldset>
+                    <!-- <legend>Which elementary school do you live near? - Closest School:</legend> -->
+                    <h4>Which elementary school do you live near? - Closest School:</h4>
+                    <div class="alLadito">
+                        <div class="alLadito enColumna">
+                            <div class="alLadito">
+                                <input type="radio" id="ajKat" name="school">
+                                <label for="ajKat">AJ Katzenmaier</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="greenB" name="school">
+                                <label for="greenB">Greenbay</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="howardY" name="school">
+                                <label for="howardY">Howard a Yeager</label>
+                            </div>
+                        </div>
+                        <div class="alLadito enColumna">
+                            <div class="alLadito">
+                                <input type="radio" id="marjorie" name="school">
+                                <label for="marjorie">Marjorie P Hart</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="north" name="school">
+                                <label for="north">North Elementary</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="south" name="school">
+                                <label for="south">South Elementary</label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
 
-                <h3>Which elementary school do you live near?</h3>
-                <h4>closest school</h4>
-                <input type="checkbox" id="ajKat" name="school">
-                <label for="ajKat">AJ Katzenmaier</label>
+        <!--POSITION PLAY--> <!--Listo/VER LOS NAME-->
 
-                <input type="checkbox" id="greenB" name="school">
-                <label for="greenB">Greenbay</label>
+                <fieldset>
+                    <!-- <legend>What position(s) do you normally play? (check all that apply)</legend> -->
+                    <h4>What position(s) do you normally play? (check all that apply)</h4>
+                    <div class="alLadito">
+                        <div class="alLadito enColumna">
+                            <div class="alLadito">
+                                <input type="checkbox" id="forward">
+                                <label for="forward">Forward</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="checkbox" id="defense">
+                                <label for="defense">Defense</label>
+                            </div>
+                        </div>
+                        <div class="alLadito enColumna">
+                            <div class="alLadito">
+                                <input type="checkbox" id="midfield">
+                                <label for="midfield">Midfield</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="checkbox" id="goalkeeper">
+                                <label for="goalkeeper">Goalkeeper</label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
 
-                <input type="checkbox" id="howardY" name="school">
-                <label for="howardY">Howard a Yeager</label>
+        <!--UNIFORM SIZE--> <!--Listo-->
 
-                <input type="checkbox" id="marjorie" name="school">
-                <label for="marjorie">Marjorie P Hart</label>
+                <fieldset>
+                    <!-- <legend>Uniform size:</legend> -->
+                    <h4>Uniform size:</h4>
+                    <div class="alLadito">
+                        <div class="alLadito enColumna">
+                            <div class="alLadito">
+                                <input type="radio" id="ySmall" name="size">
+                                <label for="ySmall">Youth Small</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="yMedium" name="size">
+                                <label for="yMedium">Youth Medium</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="yLarge" name="size">
+                                <label for="yLarge">Youth Large</label>
+                            </div>
+                        </div>
+                        <div class="alLadito enColumna">
+                            <div class="alLadito">
+                                <input type="radio" id="small" name="size">
+                                <label for="small">Small</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="medium" name="size">
+                                <label for="medium">Medium</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="large" name="size">
+                                <label for="large">Large</label>
+                            </div>
+                            <div class="alLadito">
+                                <input type="radio" id="eLarge" name="size">
+                                <label for="eLarge">Extra-Large</label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
 
-                <input type="checkbox" id="north" name="school">
-                <label for="north">North Elementary</label>
-
-                <input type="checkbox" id="south" name="school">
-                <label for="south">South Elementary</label>
-
-                <br><br> <!-- REEMPLAZAR-->
-
-                <h3>What position(s) do you normally play? (check all that apply)</h3>
-                <input type="checkbox" id="" name="">
-                <label for="">Forward</label>
-                <input type="checkbox" id="" name="">
-                <label for="">Defense</label>
-                <input type="checkbox" id="" name="">
-                <label for="">Midfield</label>
-                <input type="checkbox" id="" name="">
-                <label for="">Goalkeeper</label>
-
-                <br><br> <!-- REEMPLAZAR-->
-
-                <h3>Uniform size:</h3>
-                <input type="radio" id="" name="">
-                <label for="">Youth Small</label>
-                
-                <input type="radio" id="" name="">
-                <label for="">Youth Medium</label>
-
-                <input type="radio" id="" name="">
-                <label for="">Youth Large</label>
-
-                <input type="radio" id="" name="">
-                <label for="">Small</label>
-
-                <input type="radio" id="" name="">
-                <label for="">Medium</label>
-
-                <input type="radio" id="" name="">
-                <label for="">Large</label>
-
-                <input type="radio" id="" name="">
-                <label for="">Extra-Large</label>
-
-                <br><br> <!-- REEMPLAZAR-->
-
-                <h3>Permission to Play</h3>
+                <h4>Permission to Play</h4>
             </form>
         </div>
     </main>
