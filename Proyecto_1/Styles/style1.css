@@ -158,6 +158,25 @@ h1{
         font-size: 2.3rem; 
     }
 }
+@media (width < 938px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        left: 2px;
+    }
+    .divNav{
+        margin-top: 5px;
+    }
+    .button{
+        width: 100px;
+    }
+    .buttonActive{
+        width: 100px;
+    }
+    .mainBack{
+        margin-top: 20%;
+    }
+}
 @media (width < 924px) {
     .alLadito{
         display: block;
@@ -172,8 +191,16 @@ h1{
         text-align: left;
     }
 }
+@media (width < 602px){
+    .mainBack{
+        margin-top: 40%;
+    }
+}
 @media (width < 466px){
     .contact{
         display: block;
+    }
+    .mainBack{
+        margin-top: 55%;
     }
 }
