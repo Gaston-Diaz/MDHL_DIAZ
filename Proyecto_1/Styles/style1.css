@@ -1,5 +1,6 @@
 html{
     font-family: Comic Sans MS;
+    margin: 0%;
 }
 table{
     width: 40%;
@@ -73,11 +74,11 @@ h1{
 }
 .imgBorde{
     height: 350px;
-    margin-left: 150px;
+    margin-left: 30%;
     border-radius: 15px;
 }
 .articleDiv{
-    margin-left: 30px;
+    margin-left: 140px;
 }
 .buttonActive{
     display: block;
@@ -178,10 +179,29 @@ h1{
     .mainBack{
         margin-top: 20%;
     }
+    .sectionDiv{
+        display: block;
+        margin-top: 15%  
+    }
+    .imgBorde{
+        margin-left: 10%;
+    }
+    .articleDiv{
+        margin-left: 10%;
+    }
+
 }
 @media (width < 924px) {
     .alLadito{
         display: block;
+    }
+}
+@media(width < 738px){
+    .imgBorde{
+        margin-left: 0px;
+    }
+    .articleDiv{
+        margin-left: 0%;
     }
 }
 @media (width < 620px) {
@@ -192,10 +212,24 @@ h1{
     .textEventBanner{
         text-align: left;
     }
+    .sectionDiv{
+        margin-top: 20%  
+    }
+    .imgBorde{
+        height: 300px;
+    }
 }
 @media (width < 602px){
     .mainBack{
         margin-top: 40%;
+    }
+    .sectionDiv{
+        margin-top: 50%  
+    }
+}
+@media (width < 499px){
+    .imgBorde{
+        height: 250px;
     }
 }
 @media (width < 466px){
@@ -204,5 +238,13 @@ h1{
     }
     .mainBack{
         margin-top: 55%;
+    }
+}
+@media (width < 431px) {
+    .imgBorde{
+        height: 200px;
+    }
+    .sectionDiv{
+        margin-top: 52%  
     }
 }
